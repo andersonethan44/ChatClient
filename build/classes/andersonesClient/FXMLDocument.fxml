@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="Pane" prefHeight="641.0" prefWidth="1012.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="andersonesClient.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="835.0" layoutY="255.0" onAction="#handleButtonAction" prefHeight="43.0" prefWidth="168.0" text="Register" />
+        <Label fx:id="label" layoutX="94.0" layoutY="63.0" minHeight="16" minWidth="69" text="Active Users" />
+      <ListView fx:id="OutputListView" layoutX="233.0" layoutY="39.0" prefHeight="431.0" prefWidth="535.0" />
+      <TextField fx:id="userInputTextField" layoutX="233.0" layoutY="470.0" prefHeight="43.0" prefWidth="277.0" />
+      <ListView fx:id="userNameView" layoutX="5.0" layoutY="80.0" prefHeight="431.0" prefWidth="228.0" />
+      <Label fx:id="label2" layoutX="458.0" layoutY="4.0" text="Messages" />
+      <TextField fx:id="userNameField" layoutX="834.0" layoutY="94.0" />
+      <TextField fx:id="passwordField" layoutX="834.0" layoutY="175.0" />
+      <Label fx:id="userNameLabel" layoutX="834.0" layoutY="63.0" text="Username" />
+      <Label fx:id="passwordLabel" layoutX="836.0" layoutY="141.0" text="Password" />
+      <Button fx:id="LoginButton" layoutX="834.0" layoutY="212.0" mnemonicParsing="false" onAction="#handleLoginButton" prefHeight="43.0" prefWidth="168.0" text="Login" />
+      <Button fx:id="messageButton" layoutX="510.0" layoutY="470.0" mnemonicParsing="false" onAction="#handleMessageAction" prefHeight="43.0" prefWidth="258.0" text="Send Message" />
+      <TextField fx:id="fileNameField" layoutX="834.0" layoutY="369.0" />
+      <Label fx:id="fileLabel" layoutX="836.0" layoutY="334.0" text="Enter Filename Below" />
+      <Button fx:id="sendFileButton" layoutX="836.0" layoutY="404.0" mnemonicParsing="false" onAction="#handleFileSendAction" text="Send File" />
+    </children>
+</AnchorPane>
